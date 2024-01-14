@@ -1,0 +1,195 @@
+html {
+    background-color: #FBFBFB;
+    font-family: Inconsolata, serif;
+    color: #8A575C;
+}
+#container {
+    background-color: #FBF4FA;
+    max-height: 80%;
+}
+#header {
+    text-align: center;
+    background-color: #FBE3E9;
+    font-size: 1.3vw;
+    font-family: 'Hind Siliguri', sans-serif;
+}
+span.magic {
+    font-size: 2.1vw;
+    font-weight: lighter;
+}
+.block {
+    width: 30%;
+    height: 80%;
+    background-color: #FBE3E9;
+    margin: 1%;
+    margin-top: 0;
+}
+#game {
+    display: flex;
+    justify-content: center;
+}
+#colors {
+    max-width: 20%;
+    max-height: 80%;
+    padding: 1%;
+}
+#image {
+    max-width: 65%;
+    padding: 1%;
+}
+#mechanics {
+    max-width: 25%;
+    padding: 1%;
+}
+.girl {
+    padding: 2%;
+    max-width: 96%;
+}
+.col-button {
+    display: flex;
+    flex-direction: column;
+    margin: 2px 2%;
+    height: 4vw;
+    font-size: 1.7vw;
+    font-weight: bold;
+    text-align: center;
+    border-radius: 5px;
+    justify-content: center;
+}
+#store-of-colors {
+    max-width: 17%;
+    padding: 2% 3% 2% 5%;
+}
+#store {
+    margin: 3%;
+    display: inline-flex;
+    align-items: center;
+    font-size: 3vw;
+    font-family: 'Hind Siliguri', sans-serif;
+    background-color: #f1cfd7;
+}
+#black {
+    margin-top: 2%;
+    background-color: rgba(22, 20, 20, 0.70);
+    color: #FBE3E9;
+}
+#black:hover {
+    background-color: rgba(22, 20, 20, 0.95) ;
+}
+#red {
+    background-color: rgb(222, 145, 151);
+    color: #FBE3E9;
+}
+#red:hover {
+    background-color: rgb(171, 31, 40);
+}
+#orange {
+    background-color: rgb(246, 183, 138);
+    color: #FBE3E9;
+    border: 2px solid #e1bcc4;
+}
+#orange:hover {
+    background-color: rgb(222, 111, 35);
+}
+#yellow {
+    background-color: rgb(239, 205, 135);
+    color: #FBE3E9;
+}
+#yellow:hover {
+    background-color: #f8b227;
+}
+#green {
+    background-color: rgb(172, 217, 133);
+    color: #FBE3E9;
+}
+#green:hover {
+    background-color: #6ba13e;
+}
+#cyan {
+    background-color: rgb(160, 222, 245);
+    color: #FBE3E9;
+}
+#cyan:hover {
+    background-color: #3bacd5;
+}
+#blue {
+    background-color: rgb(146, 168, 246);
+    color: #FBE3E9;
+}
+#blue:hover {
+    background-color: #375ad5;
+}
+#violet {
+    background-color: rgb(188, 145, 234);
+    color: #FBE3E9;
+}
+#violet:hover {
+    background-color: #833fcb;
+}
+#author {
+    text-align: center;
+    font-size: 1vw;
+}
+#drop {
+    max-width: 12%;
+}
+#amount {
+    display: inline-flex;
+    background-color: #f1cfd7;
+    margin: 2%;
+    padding: 3%;
+    font-size: 2vw;
+    align-items: center;
+    font-weight: bold;
+}
+#store-basket {
+    max-width: 17%;
+    margin-right: 2%;
+}
+#buff-store {
+    margin: 3%;
+    display: inline-flex;
+    align-items: center;
+    font-size: 2.7vw;
+    font-family: 'Hind Siliguri', sans-serif;
+}
+#buff {
+    margin: 3%;
+    padding: 2%;
+    font-size: 2vw;
+    align-items: center;
+}
+#passive-currency-growth {
+    background-color: #f1cfd7;
+    margin: 2% 0;
+}
+#price-per-click {
+    background-color: #f1cfd7;
+    margin: 2% 0;
+}
+img.drop {
+    max-width: 80vw;
+    max-height: 2vw;
+    margin: 0 1%;
+}
+.baff-store {
+    display: flex;
+    justify-content: space-between;
+}
+.baff-description {
+    padding: 2%;
+    text-align: center;
+    align-items: center;
+}
+.baff-price {
+    padding: 2%;
+    text-align: center;
+    display: inline-flex;
+    align-items: center;
+}
+.baff-price:hover {
+    background-color: #e1bcc4;
+}
+/*
+    border: 2px solid #e1bcc4;
+ */
