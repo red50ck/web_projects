@@ -1,0 +1,73 @@
+html {
+    background-image: url("bg.jpg");
+    color: #28131b;
+    font-size: 18px;
+    font-family: 'Nunito', sans-serif;
+}
+.header {
+    margin: 5px auto 0;
+    font-size: 35px;
+    font-family: 'Arial', sans-serif;
+    text-align: center;
+}
+.body {
+    margin: 2% 5%;
+    padding: 2% 5%;
+    background-color: rgba(164,152,161,0.3);
+    border-radius: 10px
+}
+h2 {
+  font-size: 30px;
+  text-align: center;
+  font-weight: bold;
+  margin: 5px auto 0;
+}
+#mem {
+    display: block;
+    margin: 0 auto;
+    padding: 8px;
+    background-color: rgba(40,19,27,0.4);
+    max-width: 90%;
+}
+#up-but {
+  display: inline;
+  max-width: 80%;
+  position: fixed;
+  padding: 2px;
+  bottom: 5%;
+  right: 30px;
+}
+#comments {
+    max-width: 70%;
+    position: fixed;
+    padding: 2px;
+    bottom: 20%;
+    left: -18px;
+}
+.answer {
+    font-family: 'Nunito', sans-serif;
+    text-align: center;
+    padding: 5px;
+    margin: 5px auto 0;
+    font-size: 15px;
+}
+input {
+    background-color: #a0949c;
+    border: 3px solid #4e2e32;
+    border-right: 0;
+    color: #4e2e32;
+    outline: none;
+    max-width: 90%;
+}
+input::placeholder {
+    color: #4e2e32;
+}
+button {
+    border: 3px solid #4e2e32;
+    background-color: #4e2e32;
+    color: #817072;
+}
+button:active {
+    background-color: #10060d;
+    color: #817072;
+}
